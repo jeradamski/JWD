@@ -1,15 +1,18 @@
-public class Lab7_1 {
-    /*
-Napisz program, który dla dowolnej liczby całkowitej n z przedziału (1 ≤ n ≤ 30) wypisuje macierz
-jak w poniższych przykładach. Użyj dwóch zagnieżdżonych pętli.
-    */
-    public static void main(String[] args) {
-        int n = 5;
-        int j = 1;
+import java.util.Scanner;
 
-        while (n < j) {
-            for (int i = j; i <= n; i++) {
-                System.out.print(i + " ");
+public class Lab7_1 {
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Wprowadź liczbę całkowitą - ");
+        int n = scanner.nextInt();
+
+        System.out.println("Macierz liczby " + n + " wygląda następująco:" );
+        int j = 0;
+        while (n > j) {
+            for (int i = j; i < (j+n); i++) {
+                System.out.print(1 + i + " ");
             }
             System.out.print("\n");
             j++;
