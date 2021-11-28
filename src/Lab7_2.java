@@ -4,7 +4,7 @@ public class Lab7_2 {
         String str = "1110000110000101100101000000";
         System.out.println(str);
 
-        long nbr = 0;
+        long nbr = 0L;
 
         for (int i = 0; i < str.length(); i++) {
 
