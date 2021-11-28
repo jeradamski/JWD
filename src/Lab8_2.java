@@ -13,7 +13,7 @@ public class Lab8_2 {
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
                 for (int k = 0; k < arr[j].length ; k++) {
-                    //if (null == arr[i][j][k]) {} //TODO
+                    if (0 != arr[i][j][k]) {} //TODO
                         System.out.println("arr[" + i + "][" + j + "][" + k + "]" + arr[i][j][k]);
 
 
