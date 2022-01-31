@@ -1,4 +1,4 @@
-public class Lab7_2 {
+public class Lab7_2  {
     public static void main(String[] args) {
 
         String str = "1110000110000101100101000000";
